@@ -30,7 +30,9 @@ Clone the repository:
 git clone https://github.com/yourusername/password-generator.git
 cd password-generator
 
+
 Customize the script:
+----------------------------------
 
 Open password_generator.py and set the character types you want to include in your passwords by modifying the boolean variables:
 
