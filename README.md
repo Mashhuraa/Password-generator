@@ -102,11 +102,15 @@ length = 12
 passwords = []
 
 for _ in range(num_passwords):
+
     password = "".join(random.choices(characters, k=length))
+    
     passwords.append(password)
 
 print("\nGenerated Passwords:")
+
 for password in passwords:
+
     print(password)
     
 Output
