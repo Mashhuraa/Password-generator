@@ -11,17 +11,17 @@ Features
 
 2.Customizable character types:
 
-Uppercase letters (A-Z)
+* Uppercase letters (A-Z)
 
-Lowercase letters (a-z)
+* Lowercase letters (a-z)
 
-Digits (0-9)
+* Digits (0-9)
 
-Symbols (!@#$%*&+_?/{}[]:;|\)
+* Symbols (!@#$%*&+_?/{}[]:;|\)
 
-Ensures at least one type of character is selected.
+* Ensures at least one type of character is selected.
 
-Easily adjustable password length and number of passwords.
+* Easily adjustable password length and number of passwords.
 
 Usage
 ---------------------------
