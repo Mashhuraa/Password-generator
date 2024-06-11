@@ -42,7 +42,8 @@ use_lowercase = True
 
 use_digits = True
 
-se_symbols = True
+use_symbols = True
+
 
 Set the number of passwords and their length:
 
