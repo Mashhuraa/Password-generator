@@ -36,13 +36,13 @@ Customize the script:
 
 Open password_generator.py and set the character types you want to include in your passwords by modifying the boolean variables:
 
-!use_uppercase = True
+use_uppercase = True
 
-!use_lowercase = True
+use_lowercase = True
 
-!use_digits = True
+use_digits = True
 
-!use_symbols = True
+se_symbols = True
 
 Set the number of passwords and their length:
 
@@ -53,17 +53,15 @@ num_passwords = 5
 length = 12
 
 Run the script:
-
+-------------------------------
 python password_generator.py
 
 View the generated passwords:
-
+-----------------------------
 The script will print the generated passwords to the console.
 
 Example
-
-Here is an example of the script generating 5 passwords, each 12 characters long, including all character types:
-
+-------------------------------------
 import random
 
 uppercase_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -109,8 +107,9 @@ for _ in range(num_passwords):
 print("\nGenerated Passwords:")
 for password in passwords:
     print(password)
+    
 Output
-
+--------------------
 Generated Passwords:
 
 4uRk&T1pVw*@
@@ -127,7 +126,7 @@ Customization
 -------------------------------
 To customize the script for your needs:
 
-Character Types: Change the use_uppercase, use_lowercase, use_digits, and use_symbols variables to include or exclude certain types of characters.
+Character Types: Change the `use_uppercase`,    `use_lowercase`, `use_digits`, and `use_symbols` variables to include or exclude certain types of characters.
 
 Number of Passwords: Change the num_passwords variable to generate more or fewer passwords.
 
