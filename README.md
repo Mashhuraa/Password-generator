@@ -1,6 +1,7 @@
-#Password Generator
+Password Generator
+-------------------------------
 
-#Overwiev
+Overwiev
 --------------------------------
 This repository contains a Python script that generates random passwords based on user-specified criteria. The user can choose to include uppercase letters, lowercase letters, digits, and symbols in the passwords. The script generates a specified number of passwords with a specified length.
 
