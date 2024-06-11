@@ -3,7 +3,7 @@ Password Generator
 
 Overwiev
 --------------------------------
-This repository contains a Python script that generates random passwords based on user-specified criteria. The user can choose to include uppercase letters, lowercase letters, digits, and symbols in the passwords. The script generates a specified number of passwords with a specified length.
+This repository contains a Python script that generates `random passwords` based on user-specified criteria. The user can choose to include `uppercase letters`, `lowercase letters`, `digits`, and `symbols` in the passwords. The script generates a specified number of passwords with a specified length.
 
 Features
 ------------------------------------
@@ -128,13 +128,14 @@ To customize the script for your needs:
 
 Character Types: Change the `use_uppercase`,    `use_lowercase`, `use_digits`, and `use_symbols` variables to include or exclude certain types of characters.
 
-Number of Passwords: Change the num_passwords variable to generate more or fewer passwords.
+Number of Passwords: Change the `num_passwords` variable to generate more or fewer passwords.
 
-Password Length: Change the length variable to adjust the length of each generated password.
+Password Length: Change the `length` variable to adjust the length of each generated password.
 
 Notes
 ----------------------------------
 The script ensures that at least one type of character is included. If no character types are selected, an exception is raised.
+
 Adjust the character sets and variables as needed to fit your specific requirements.
 
 License
