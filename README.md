@@ -36,10 +36,13 @@ Customize the script:
 
 Open password_generator.py and set the character types you want to include in your passwords by modifying the boolean variables:
 
-use_uppercase = True
-use_lowercase = True
-use_digits = True
-use_symbols = True
+!use_uppercase = True
+
+!use_lowercase = True
+
+!use_digits = True
+
+!use_symbols = True
 
 Set the number of passwords and their length:
 
