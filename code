@@ -1,0 +1,48 @@
+import random
+
+uppercase_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+lowercase_letters = "abcdefghijklmnopqrstuvwxyz"
+digits = "0123456789"
+symbols = "!@#$%*&+_?/{}[]:;|\\"
+
+characters = ""
+use_uppercase = True
+use_lowercase = True
+use_digits = True
+use_symbols = True
+
+if use_uppercase:
+    characters += uppercase_letters
+if use_lowercase:
+    characters += lowercase_letters
+if use_digits:
+    characters += digits
+if use_symbols:
+    characters += symbols
+
+if not characters:
+    raise Exception("At least one character type must be chosen.")
+
+num_passwords = 5
+length = 12
+
+passwords = []
+for _ in range(num_passwords):
+    password = "".join(random.choices(characters, k=length))
+    passwords.append(password)
+
+print("\nGenerated Passwords:")
+for password in passwords:
+    print(password)
+
+#Example
+      Generated Passwords:
+zV1F5$cCPdL_
+U\FZ4|9Mq[dr
+J?SjjdmBs1nm
+rdQ_mS];#9H0
+dB50]{aaTHUX
+
+
+
+
